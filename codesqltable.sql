@@ -1,6 +1,6 @@
-create tablespace Cetrad datafile 'C:\tbs\Cetrad.dat' size 500 M autoextend on;
-Create temporary tablespace Cetrad_TempTBS tempfile 'C:\tbs\Cetrad_TempTBS.dat' size 100M autoextend on;
-create user cet identified by password213# default tablespace Cetrad temporary tablespace Cetrad_tempTBS;
+create tablespace Ce datafile 'C:\tbs\Ce.dat' size 500 M autoextend on;
+Create temporary tablespace Ce_TempTBS tempfile 'C:\tbs\Ce_TempTBS.dat' size 100M autoextend on;
+create user cet identified by password213# default tablespace Ce temporary tablespace Ce_tempTBS;
 connect cet/password213#;
 Create table arriverstock (
 Designation varchar(50),
